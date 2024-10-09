@@ -20,7 +20,7 @@ namespace PracticWork_3
             v2 = int.Parse(Console.ReadLine());
 
             t = s / (v1+v2);
-            Console.WriteLine($"Час руху між 1 пішоходом з відстаню {v1} та 2 пішоходом з відстаню {v2} дорівнює: {t}");
+            Console.WriteLine("Час руху між 1 пішоходом з відстаню {1} та 2 пішоходом з відстаню {2} дорівнює: {0:N3}", t,v1,v2,s);
             Console.ReadKey();
 
         }
